@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-    let nightMode = getCookie('nightMode');
+    let nightMode = 'false';
     
     function setCookie(cname, cvalue, exdays) {
         var d = new Date();
@@ -243,6 +243,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // First initialization
     if (getStorage() == undefined) {
         initData();
+    }else {
+        nightMode = getCookie('nightMode');
     }
 
     // Initialization tasks from local storage
