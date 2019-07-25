@@ -5,55 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Todo</title>
-    <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="main.js"></script>
+    <title>Takser</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </head>
 
 <body>
-    <div class="page night-mode">
+    <div class="page">
         <header class="header">
             <div class="logo">
                 <h2>Tasker</h2>
             </div>
+            <div class="button-night_mode">
+                <button></button>
+            </div>
+            <!-- <div class="add-table">
+                <button>Добавить столбец</button>
+            </div> -->
         </header>
         <div class="main">
-            <div class="deal-list">
-                <div class="work-block">
-                    <div class="work-block__header">
-                        <h3>Список дел</h3>
-                    </div>
-                    <div class="work-block__footer">
-                        <p>Добавить задачу</p>
-                    </div>
-                </div>
-                <div class="work-block">
-                    <div class="work-block__header">
-                        <h3>В процессе</h3>
-                    </div>
-                    <div class="work-block__body">
-                        <div class="task-block">
-                            <p>Вынести мусор</p>
-                        </div>
-                    </div>
-                    <div class="work-block__footer">
-                        <p>Добавить задачу</p>
-                    </div>
-                </div>
-                <div class="work-block">
-                    <div class="work-block__header">
-                        <h3>Завершённые</h3>
-                    </div>
-                    <div class="work-block__body">
-                        <div class="task-block">
-                            <p>Вынести мусор</p>
-                        </div>
-                    </div>
-                    <div class="work-block__footer">
-                        <p>Добавить задачу</p>
-                    </div>
-                </div>
-            </div>
+            <div class="deal-list"></div>
         </div>
     </div>
 </body>
