@@ -66,14 +66,8 @@ document.addEventListener('DOMContentLoaded', function() {
             value: workValue
         }
 
-        let result = saveTask(data);
-
-        let newTaskBlock = createTaskBlock(workValue);
-        newTaskBlock.setAttribute('table-id', result.tableId);
-        newTaskBlock.setAttribute('task-id', result.taskId);
-
-        bodyBlock.appendChild(newTaskBlock);
-        
+        saveTask(data);
+        tasksInitialization();
     }
 
     function initData() {
