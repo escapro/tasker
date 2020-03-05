@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function initData() {
         let data = {
             1: {
-                title: 'Спиок дела',
+                title: 'Спиок дел',
                 tasks: ['Вынести мусор', 'Позвонить другу']
             },
             2: {

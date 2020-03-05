@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Roboto';
-    src: URL('/fonts/Roboto/Roboto-Regular.ttf') format('woff'), URL('/fonts/Roboto/Roboto-Medium.ttf') format('woff'), URL('/fonts/Roboto/Roboto-Light.ttf') format('woff');
+    src: URL('../fonts/Roboto/Roboto-Regular.ttf') format('woff'), URL('../fonts/Roboto/Roboto-Medium.ttf') format('woff'), URL('/fonts/Roboto/Roboto-Light.ttf') format('woff');
 }
 
 * {
@@ -239,7 +239,7 @@ p {
     display: block;
     width: 20px;
     height: 20px;
-    background-image: url('/icons/left.svg');
+    background-image: url('../icons/left.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -264,7 +264,7 @@ p {
     display: block;
     width: 20px;
     height: 20px;
-    background-image: url('/icons/garbage.svg');
+    background-image: url('../icons/garbage.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -290,7 +290,7 @@ p {
     display: block;
     width: 20px;
     height: 20px;
-    background-image: url('/icons/right.svg');
+    background-image: url('../icons/right.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -352,7 +352,7 @@ p {
     height: 30px;
     border: none;
     background-color: transparent;
-    background-image: url('/icons/day-and-night.svg');
+    background-image: url('../icons/day-and-night.svg');
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
